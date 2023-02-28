@@ -52,10 +52,14 @@ const Text = styled.div`
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 125%;
   text-align: right;
   color: #ffffff;
+
+  @media (min-width: 375px) {
+    font-size: 20px;
+  }
 `;
 
 const Footer = () => {
