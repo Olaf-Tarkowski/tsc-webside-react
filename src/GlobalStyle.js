@@ -12,5 +12,8 @@ html {
 body {
   background-color: #fff;
   margin: auto;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
 }
 `;
