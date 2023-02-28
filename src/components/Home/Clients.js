@@ -5,6 +5,7 @@ import Microsoft from "../../resources/images/logs/Microsoft.svg";
 import Airbnb from "../../resources/images/logs/Airbnb.svg";
 import Facebook from "../../resources/images/logs/Facebook.svg";
 import Spotify from "../../resources/images/logs/Spotify.svg";
+import { Button } from "./Info";
 
 const Container = styled.div`
   display: flex;
@@ -13,6 +14,7 @@ const Container = styled.div`
 `;
 
 const LogoSection = styled.section`
+padding: 35px 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -22,7 +24,7 @@ const LogoSection = styled.section`
 `;
 
 const LogoLink = styled.a`
-  padding: 40px 34px;
+  padding: 20px 34px;
   transition: 0.5s;
   :hover {
     transform: scale(1.1);
@@ -51,6 +53,7 @@ const Clients = () => {
           <LogoSvg src={Spotify} />
         </LogoLink>
       </LogoSection>
+      <Button>Learn More</Button>
     </Container>
   );
 };
