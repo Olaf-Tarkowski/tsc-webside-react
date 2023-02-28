@@ -14,7 +14,7 @@ const Container = styled.div`
 `;
 
 const LogoSection = styled.section`
-padding: 35px 0;
+  padding: 35px 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -33,25 +33,38 @@ const LogoLink = styled.a`
 
 const LogoSvg = styled.img``;
 
+const linkData = [
+  {
+    href: "https://www.google.com/",
+    image: Google,
+  },
+  {
+    href: "https://www.microsoft.com/",
+    image: Microsoft,
+  },
+  {
+    href: "https://www.airbnb.com/",
+    image: Airbnb,
+  },
+  {
+    href: "https://www.facebook.com/",
+    image: Facebook,
+  },
+  {
+    href: "https://open.spotify.com/",
+    image: Spotify,
+  },
+];
+
 const Clients = () => {
   return (
     <Container>
       <LogoSection>
-        <LogoLink href="https://www.google.com/">
-          <LogoSvg src={Google} />
-        </LogoLink>
-        <LogoLink href="https://www.microsoft.com/">
-          <LogoSvg src={Microsoft} />
-        </LogoLink>
-        <LogoLink href="https://www.airbnb.com/">
-          <LogoSvg src={Airbnb} />
-        </LogoLink>
-        <LogoLink href="https://www.facebook.com/">
-          <LogoSvg src={Facebook} />
-        </LogoLink>
-        <LogoLink href="https://open.spotify.com/">
-          <LogoSvg src={Spotify} />
-        </LogoLink>
+        {linkData.map((data, index) => (
+          <LogoLink key={index} href={data.href}>
+            <LogoSvg src={data.image} />
+          </LogoLink>
+        ))}
       </LogoSection>
       <Button>Learn More</Button>
     </Container>
