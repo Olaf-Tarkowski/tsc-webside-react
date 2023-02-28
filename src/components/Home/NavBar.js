@@ -5,7 +5,7 @@ import Logo from "../../resources/images/logs/MainLogo.svg";
 const Container = styled.main`
   padding: 17px 20px;
   margin: auto;
-  max-width: 1175px;
+  max-width: 1215px;
   display: flex;
   justify-content: space-between;
 
