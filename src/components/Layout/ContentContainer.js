@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../Home/Card";
 import Cards from "../Home/Cards";
 import Clients from "../Home/Clients";
-import Header from "../Home/Header";
+import TitleContent from "../Home/TitleContent";
 import Info from "../Home/Info";
 
 const ContentContainer = () => {
@@ -20,10 +20,10 @@ const ContentContainer = () => {
   };
   return (
     <>
-      <Header data={Data.partners} />
+      <TitleContent data={Data.partners} />
       <Clients />
       <Info />
-      <Header data={Data.team} />
+      <TitleContent data={Data.team} />
       <Cards />
     </>
   );
