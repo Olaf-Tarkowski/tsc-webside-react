@@ -22,7 +22,7 @@ const Section = styled.div`
 `;
 
 const SecondSection = styled.div`
-  padding: 40px 20px;
+  padding: 40px 20px 20px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
@@ -30,7 +30,7 @@ const SecondSection = styled.div`
   flex-wrap: wrap;
 
   @media (min-width: 1150px) {
-    padding: 0 20px 102px ;
+    padding: 0 20px 42px;
     justify-content: space-between;
   }
 `;
