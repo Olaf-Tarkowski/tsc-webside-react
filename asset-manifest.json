@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/tsc-webside-react/static/js/main.ad463c6e.js",
+    "static/js/787.290ff5a1.chunk.js": "/tsc-webside-react/static/js/787.290ff5a1.chunk.js",
+    "static/media/Second.svg": "/tsc-webside-react/static/media/Second.fabb7f10c424d78767c214fee8920fda.svg",
+    "static/media/Third.svg": "/tsc-webside-react/static/media/Third.4af605d2b6cc144a8148248ac800894f.svg",
+    "static/media/CTO.svg": "/tsc-webside-react/static/media/CTO.631f08a6b12539190e5f77dfdfe52973.svg",
+    "static/media/DESIGNER.svg": "/tsc-webside-react/static/media/DESIGNER.7a234ef6bb44cd6f0075957b5564c794.svg",
+    "static/media/CEO.svg": "/tsc-webside-react/static/media/CEO.333d00297f00328f1abce99f5fa0f083.svg",
+    "static/media/DEVELOPER.svg": "/tsc-webside-react/static/media/DEVELOPER.12016965da9e4c9141cd60452e30c9f8.svg",
+    "static/media/Spotify.svg": "/tsc-webside-react/static/media/Spotify.e0ace13f6903bfe2a67ff401493dbc46.svg",
+    "static/media/Microsoft.svg": "/tsc-webside-react/static/media/Microsoft.04a82cc3bdfde1c4d72efdbbcfd42a9e.svg",
+    "static/media/Airbnb.svg": "/tsc-webside-react/static/media/Airbnb.290a5dd6ea25b108b07789b371f9bb01.svg",
+    "static/media/Facebook.svg": "/tsc-webside-react/static/media/Facebook.986a8697d959aa2498ff6f9f8f30b7d4.svg",
+    "static/media/Google.svg": "/tsc-webside-react/static/media/Google.1da058ed8113157392c7950ab45335db.svg",
+    "static/media/Group 35.svg": "/tsc-webside-react/static/media/Group 35.6fec062f725ec2a09bd8de09574c1529.svg",
+    "static/media/Group 38.svg": "/tsc-webside-react/static/media/Group 38.a858d2b0d89cf1e5fa3016f099e447d2.svg",
+    "static/media/Group 36.svg": "/tsc-webside-react/static/media/Group 36.7dd64ab872bfa4ef60ad3357ba19880a.svg",
+    "static/media/Group 34.svg": "/tsc-webside-react/static/media/Group 34.35c669f43c15785808d9b60adb147f20.svg",
+    "index.html": "/tsc-webside-react/index.html",
+    "static/media/Group 37.svg": "/tsc-webside-react/static/media/Group 37.d00b82c3f6746bc80f1fc4ecbb3f7537.svg",
+    "static/media/Group 39.svg": "/tsc-webside-react/static/media/Group 39.df2fbc5e2d7b418dac7631e8599899db.svg",
+    "static/media/Group 33.svg": "/tsc-webside-react/static/media/Group 33.15dd080184b03267d16f8db6a5f284da.svg",
+    "main.ad463c6e.js.map": "/tsc-webside-react/static/js/main.ad463c6e.js.map",
+    "787.290ff5a1.chunk.js.map": "/tsc-webside-react/static/js/787.290ff5a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ad463c6e.js"
+  ]
+}
