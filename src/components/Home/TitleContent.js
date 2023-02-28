@@ -54,7 +54,7 @@ const Text = styled.div`
   }
 `;
 
-const Header = ({ data }) => {
+const TitleContent = ({ data }) => {
   return (
     <Container>
       <Title>{data.title}</Title>
@@ -64,4 +64,4 @@ const Header = ({ data }) => {
   );
 };
 
-export default Header;
+export default TitleContent;
