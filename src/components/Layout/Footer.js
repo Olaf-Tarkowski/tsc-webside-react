@@ -62,32 +62,47 @@ const Text = styled.div`
   }
 `;
 
+const linkData = [
+  {
+    href: "https://www.facebook.com/",
+    image: Facebook,
+  },
+  {
+    href: "https://www.instagram.com/",
+    image: Instagram,
+  },
+  {
+    href: "https://twitter.com/",
+    image: Twitter,
+  },
+  {
+    href: "https://www.pinterest.com/",
+    image: Pinterest,
+  },
+  {
+    href: "https://www.tiktok.com/",
+    image: TikTok,
+  },
+  {
+    href: "https://www.whatsapp.com/",
+    image: WhatsApp,
+  },
+  {
+    href: "https://www.youtube.com/",
+    image: YouTube,
+  },
+];
+
 const Footer = () => {
   return (
     <Background>
       <Container>
         <LogoSection>
-          <LogoLink href="https://www.facebook.com/">
-            <LogoSvg src={Facebook} />
-          </LogoLink>
-          <LogoLink href="https://www.instagram.com/">
-            <LogoSvg src={Instagram} />
-          </LogoLink>
-          <LogoLink href="https://twitter.com/">
-            <LogoSvg src={Twitter} />
-          </LogoLink>
-          <LogoLink href="https://www.pinterest.com/">
-            <LogoSvg src={Pinterest} />
-          </LogoLink>
-          <LogoLink href="https://www.tiktok.com/">
-            <LogoSvg src={TikTok} />
-          </LogoLink>
-          <LogoLink href="https://www.whatsapp.com/">
-            <LogoSvg src={WhatsApp} />
-          </LogoLink>
-          <LogoLink href="https://www.youtube.com/">
-            <LogoSvg src={YouTube} />
-          </LogoLink>
+          {linkData.map((data, index) => (
+            <LogoLink key={index} href={data.href}>
+              <LogoSvg src={data.image} />
+            </LogoLink>
+          ))}
         </LogoSection>
         <Text>© Start, 2022. All rights reserved.</Text>
       </Container>
