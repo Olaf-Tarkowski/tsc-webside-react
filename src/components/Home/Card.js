@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Ceo from "../../resources/images/employees/CEO.svg";
 
 const Container = styled.div`
-  padding:10px;
+  padding: 10px;
   width: 279px;
   height: 299px;
   display: flex;
@@ -26,7 +25,6 @@ const TextSection = styled.div`
   align-items: flex-start;
   padding: 0px;
   gap: 17px;
-
   width: 202px;
   height: 66px;
 `;
@@ -47,7 +45,6 @@ const Job = styled.div`
 `;
 
 const Card = ({ image, person, job }) => {
-
   return (
     <Container>
       <Image src={image} />
