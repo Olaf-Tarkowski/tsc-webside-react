@@ -45,7 +45,7 @@ const Text = styled.div`
   width: 270px;
   height: 85px;
   font-size: 20px;
-  line-height: 125%;
+  line-height: 160%;
   text-align: center;
 
   @media (min-width: 700px) {
