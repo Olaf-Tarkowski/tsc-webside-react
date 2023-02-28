@@ -92,7 +92,16 @@ export const Button = styled.button`
   text-align: center;
   color: #ffffff;
   background: #212529;
+  border: none;
   border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  :hover {
+    transform: scale(1.1);
+  }
+  :active {
+    background: #74c69d;
+  }
 `;
 
 const Info = () => {

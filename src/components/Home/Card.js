@@ -10,6 +10,10 @@ const Container = styled.div`
   align-items: center;
   box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
+  transition: 0.5s;
+  :hover {
+    transform: scale(1.05);
+  }
 `;
 
 const Image = styled.img`
