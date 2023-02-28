@@ -71,7 +71,6 @@ const navData = [
 ];
 
 const NavBar = () => {
-  console.log(navData);
   return (
     <Container>
       <Section>
@@ -79,8 +78,8 @@ const NavBar = () => {
         <Text>Start</Text>
       </Section>
       <NavSection>
-        {navData.map((data) => (
-          <LogoLink>{data.link}</LogoLink>
+        {navData.map((data, index) => (
+          <LogoLink key={index}>{data.link}</LogoLink>
         ))}
       </NavSection>
     </Container>
