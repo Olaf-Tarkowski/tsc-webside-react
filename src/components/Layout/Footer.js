@@ -57,7 +57,7 @@ const Text = styled.div`
   text-align: right;
   color: #ffffff;
 
-  @media (min-width: 375px) {
+  @media (min-width: 420px) {
     font-size: 20px;
   }
 `;
