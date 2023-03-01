@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "../Home/Card";
 import Cards from "../Home/Cards";
 import Clients from "../Home/Clients";
 import TitleContent from "../Home/TitleContent";
@@ -18,6 +17,7 @@ const ContentContainer = () => {
       text: "Lorem ipsum, dolor sit amet consectetur Suscipit nemo hic quos, ab,",
     },
   };
+
   return (
     <>
       <TitleContent data={Data.partners} />
