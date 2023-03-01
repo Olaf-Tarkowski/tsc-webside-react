@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.js": "/tsc-webside-react/static/js/main.ad463c6e.js",
+    "main.js": "/tsc-webside-react/static/js/main.78060cc4.js",
     "static/js/787.290ff5a1.chunk.js": "/tsc-webside-react/static/js/787.290ff5a1.chunk.js",
+    "static/media/First.svg": "/tsc-webside-react/static/media/First.dbd53a03f8589d27f7ce777de82053e4.svg",
     "static/media/Second.svg": "/tsc-webside-react/static/media/Second.fabb7f10c424d78767c214fee8920fda.svg",
     "static/media/Third.svg": "/tsc-webside-react/static/media/Third.4af605d2b6cc144a8148248ac800894f.svg",
     "static/media/CTO.svg": "/tsc-webside-react/static/media/CTO.631f08a6b12539190e5f77dfdfe52973.svg",
@@ -15,16 +16,17 @@
     "static/media/Google.svg": "/tsc-webside-react/static/media/Google.1da058ed8113157392c7950ab45335db.svg",
     "static/media/Group 35.svg": "/tsc-webside-react/static/media/Group 35.6fec062f725ec2a09bd8de09574c1529.svg",
     "static/media/Group 38.svg": "/tsc-webside-react/static/media/Group 38.a858d2b0d89cf1e5fa3016f099e447d2.svg",
+    "static/media/MainLogo.svg": "/tsc-webside-react/static/media/MainLogo.42149fbde6b254bfc03a622cbe158783.svg",
     "static/media/Group 36.svg": "/tsc-webside-react/static/media/Group 36.7dd64ab872bfa4ef60ad3357ba19880a.svg",
     "static/media/Group 34.svg": "/tsc-webside-react/static/media/Group 34.35c669f43c15785808d9b60adb147f20.svg",
     "index.html": "/tsc-webside-react/index.html",
     "static/media/Group 37.svg": "/tsc-webside-react/static/media/Group 37.d00b82c3f6746bc80f1fc4ecbb3f7537.svg",
     "static/media/Group 39.svg": "/tsc-webside-react/static/media/Group 39.df2fbc5e2d7b418dac7631e8599899db.svg",
     "static/media/Group 33.svg": "/tsc-webside-react/static/media/Group 33.15dd080184b03267d16f8db6a5f284da.svg",
-    "main.ad463c6e.js.map": "/tsc-webside-react/static/js/main.ad463c6e.js.map",
+    "main.78060cc4.js.map": "/tsc-webside-react/static/js/main.78060cc4.js.map",
     "787.290ff5a1.chunk.js.map": "/tsc-webside-react/static/js/787.290ff5a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ad463c6e.js"
+    "static/js/main.78060cc4.js"
   ]
 }
